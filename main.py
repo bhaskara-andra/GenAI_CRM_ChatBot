@@ -23,7 +23,7 @@ from ingestion import create_chroma_db
 #from ingestion import create_chroma_db.vector_db
 #chroma_attr = create_chroma_db()
 #retriever_context = chroma_attr.create_chroma_db()
-apikey = '<your-api-key-here>' #disclosing API key
+apikey = '<your-api-key-here>' # Key has been removed for security.
 template = """You are a Customer Relationship Management Chat Bot. Your task is to read the given context first. Then understand the context.  answer the question after thoroughly understanding the question. Dont just answer the question matching the key words.  follow the below conditions
 Conditions to follow:
 1.First read the given context. Try to understand the context first. 
@@ -107,4 +107,5 @@ if question:
 
     except Exception as e:
         st.error(f"Error: {e}")
+
 
