@@ -19,7 +19,7 @@ def create_chroma_db():
 
     try:
         document_path = 'C:/Users/BHASKARASUBBARAO/Downloads/CRM_Chatbot_Usecase_Updated-0711.docx'
-        apikey = 'AIzaSyAETnBDnIVlekpZPKw7t9cUisqqIX93sH8' 
+        apikey = '<your-api-key-here>' #Disclosing API key 
         model_name = 'models/embedding-001' 
         persist_directory = './chroma_db/'
         # Load documents
@@ -48,3 +48,4 @@ def create_chroma_db():
 if __name__ == "__main__":
 
     create_chroma_db()
+
